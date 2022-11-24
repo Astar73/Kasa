@@ -1,13 +1,34 @@
 Footer {
+    position: relative;
     width: 1440px;
     height: 209px;
     background: $color-quaternary;
-}
+    &__logo {
+        position: absolute;
+        left: 45.76%;
+        right: 45.76%;
+        top: 31.58%;
+        bottom: 49.55%;
+        filter: brightness(10);
+    }
+    &__text {
+        position: absolute;
+        left: 32.15%;
+        right: 32.22%;
+        top: 64.11%;
+        bottom: 13.88%;
 
-Footer .logo {
-    filter: brightness(10);
-}
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 142.6%;
+        /* or 34px */
 
-Footer p {
-    color: $color-tertiary;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+
+        color: $color-tertiary;
+    }
 }

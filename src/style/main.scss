@@ -1,8 +1,11 @@
 @import "./variables.scss";
 @import "./mixins.scss";
+@import "./base.scss";
 @import "../components/Header/Header.scss";
 @import "../components/Logo/Logo.scss";
 @import "../components/NavBar/NavBar.scss";
 @import "../components/Footer/Footer.scss";
 @import "../pages/Error404/Error404.scss";
+@import "../pages/Home/Home.scss";
+@import "../components/Card/Card.scss";
 @import "../components/Banner/Banner.scss";

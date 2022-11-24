@@ -5,7 +5,7 @@ import Card from "../../components/Card/Card"
 
 export default function Home() {
     return (
-        <main>
+        <main className="home">
             <Banner image={image} title="Chez vous, partout et ailleurs" />
             <Card />
         </main>
