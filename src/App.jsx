@@ -1,10 +1,11 @@
 import React from "react"
 import { Routes, Route } from "react-router-dom"
+import Header from "./components/Header/Header.jsx"
 import Home from "./pages/Home/Home.jsx"
 import FichesLogement from "./pages/FichesLogement/FichesLogement.jsx"
 import Error404 from "./pages/Error404/Error404.jsx"
 import About from "./pages/About/About.jsx"
-
+import Footer from "./components/Footer/Footer.jsx"
 function App() {
     return (
         <div className="App">
@@ -12,9 +13,9 @@ function App() {
             <main>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<FichesLogement />} />
-                    <Route path="/logement/:id" element={<Error404 />} />
-                    <Route path="*" element={<About />} />
+                    <Route path="/logement/:id" element={<FichesLogement />} />
+                    <Route path="*" element={<Error404 />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
             </main>
             <Footer />
