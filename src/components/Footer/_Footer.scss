@@ -1,0 +1,14 @@
+Footer .logo {
+    filter: brightness(10);
+}
+
+Footer p {
+    color: $color-tertiary;
+}
+
+Footer {
+    background-color: $color-quaternary;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

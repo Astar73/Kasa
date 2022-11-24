@@ -7,6 +7,6 @@ export default function Header() {
         <header>
             <Logo />
             <NavBar />
-        </header>        
+        </header>
     )
 }
