@@ -1,13 +1,8 @@
-Header {
-  display: flex;
-}
-
 .nav {
   color: #ff6060;
 }
 
 Footer {
-  position: relative;
   width: 1440px;
   height: 209px;
   background: #000000;
@@ -15,26 +10,45 @@ Footer {
 
 Footer .logo {
   filter: brightness(10);
-  position: absolute;
-  left: 45.76%;
-  right: 45.76%;
-  top: 31.58%;
-  bottom: 49.55%;
 }
 
 Footer p {
-  position: absolute;
-  left: 32.15%;
-  right: 32.22%;
-  top: 64.11%;
-  bottom: 13.88%;
+  color: #ffffff;
+}
+
+.error__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 142.6%;
+  /* or 411px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ff6060;
+}
+.error__text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 142.6%;
+  /* or 51px */
   display: flex;
   align-items: flex-end;
-  text-align: center;
-  color: #ffffff;
+  color: #ff6060;
+}
+.error__text-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* identical to box height, or 26px */
+  display: flex;
+  align-items: flex-end;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ff6060;
 }/*# sourceMappingURL=main.css.map */
