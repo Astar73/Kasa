@@ -42,8 +42,7 @@ header {
   display: flex;
   align-items: flex-end;
   text-align: right;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #ff6060;
 }
 .nav__about {
@@ -128,8 +127,7 @@ Footer__text {
   /* identical to box height, or 26px */
   display: flex;
   align-items: flex-end;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #ff6060;
 }
 
@@ -213,4 +211,6 @@ main.home {
   display: flex;
   align-items: flex-end;
   color: #ffffff;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

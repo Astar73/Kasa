@@ -6,7 +6,7 @@ import FichesLogement from "./pages/FichesLogement/FichesLogement.jsx"
 import Error404 from "./pages/Error404/Error404.jsx"
 import About from "./pages/About/About.jsx"
 import Footer from "./components/Footer/Footer.jsx"
-import "./style/main.scss"
+import "./style/main.css"
 
 function App() {
     return (
