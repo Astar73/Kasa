@@ -1,35 +1,14 @@
 .banner {
-    position: absolute;
-    width: 1240px;
-    height: 223px;
-    left: 100px;
-    top: 171px;
-
-    background: #f7f7f7;
-    border-radius: 25px;
-    &__img {
-        background: #000000;
-        mix-blend-mode: darken;
-        opacity: 0.3;
-        border-radius: 25px;
-    }
+    filter: brightness(50%);
+    height: 14em;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
     &__title {
-        position: absolute;
-        left: 25.9%;
-        right: 25.14%;
-        top: 24.32%;
-        bottom: 69.04%;
-
-        font-family: "Montserrat";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 142.6%;
-        /* or 68px */
-
-        display: flex;
-        align-items: flex-end;
-
         color: $color-tertiary;
+        font-size: 3em;
+        font-weight: 500;
     }
 }
