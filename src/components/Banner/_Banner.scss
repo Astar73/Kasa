@@ -1,5 +1,5 @@
 .banner {
-    filter: brightness(50%);
+    filter: brightness(70%);
     height: 14em;
     border-radius: 1.5em;
     display: flex;
@@ -11,4 +11,8 @@
         font-size: 3em;
         font-weight: 500;
     }
+}
+
+.filter {
+    filter: brightness(70%);
 }
