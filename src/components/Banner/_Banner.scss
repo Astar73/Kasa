@@ -1,12 +1,11 @@
 .banner {
-    filter: brightness(70%);
     height: 14em;
     border-radius: 1.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 40px;
     &__title {
+        position: relative;
+        top: -180px;
+        text-align: center;
         color: $color-tertiary;
         font-size: 3em;
         font-weight: 500;
