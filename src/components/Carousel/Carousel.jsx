@@ -20,12 +20,15 @@ export default function Carousel({ slides }) {
                     <img src={picture} alt="Logement" key={index} className={index === currentSlide ? 'carousel__visible' : 'carousel__invisible'} />
                 )
             })}
-            <button className="previous-slide" onClick={previousSlide}>
+            <button className="carousel__arrow carousel__arrow--previous" onClick={previousSlide}>
                 <img src={leftArrow} alt="Flèche gauche" />
             </button>
-            <button className="next-slide" onClick={nextSlide}>
+            <button className="carousel__arrow carousel__arrow--next" onClick={nextSlide}>
                 <img src={rightArrow} alt="Flèche droite" />
             </button>
+            <span className="carousel__counter">
+                {currentSlide + 1}/{length}
+            </span>
         </div>
     )
 }
