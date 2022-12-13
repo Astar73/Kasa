@@ -11,14 +11,20 @@
 .card {
     width: 340px;
     height: 340px;
-    border-radius: 0.5em;
     margin-bottom: 50px;
     position: relative;
     &__img {
         border-radius: 0.5em;
         width: 100%;
         height: 100%;
-        object-fit: fill;
+        object-fit: cover;
+        position: absolute;
+    }
+    &__overlay {
+        border-radius: 0.5em;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../images/Card_background.svg);
         position: absolute;
     }
     &__title {
@@ -33,5 +39,19 @@
     a {
         color: $color-tertiary;
         text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cards-container {
+        background: none;
+        padding: 0;
+    }
+    .card {
+        height: 255px;
+        margin-bottom: 20px;
+        &__img {
+            object-fit: cover;
+        }
     }
 }
