@@ -11,3 +11,16 @@
         }
     }
 }
+
+@media screen and (max-width: 425px) {
+    .nav {
+        width: 140px;
+        text-align: right;
+        &__accueil,
+        &__about {
+            font-size: 12px;
+            margin-left: 10px;
+            text-transform: uppercase;
+        }
+    }
+}
