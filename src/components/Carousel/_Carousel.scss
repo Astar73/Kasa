@@ -1,7 +1,62 @@
-.carousel__invisible {
-    display: none;
+.carousel {
+    width: 1240px;
+    height: 415px;
+    &__invisible {
+        display: none;
+    }
+    &__visible {
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+    &__arrow {
+        position: relative;
+        border: none;
+        background-color: transparent;
+        &--next {
+            top: -270px;
+            left: 1100px;
+        }
+        &--previous {
+            top: -270px;
+            left: 20px;
+        }
+    }
+    &__counter {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: -140px;
+        color: $color-tertiary;
+        font-size: 18px;
+        font-weight: 500;
+    }
 }
 
-.carousel__visible {
-    visibility: visible;
+@media screen and (max-width: 425px) {
+    .carousel {
+        width: 335px;
+        height: 255px;
+        &__visible {
+            border-radius: 10px;
+        }
+        &__arrow {
+            img {
+                width: 12px;
+            }
+            &--next {
+                top: -142px;
+                left: 285px;
+            }
+            &--previous {
+                top: -142px;
+                left: 0px;
+            }
+        }
+        &__counter {
+            display: none;
+        }
+    }
 }
