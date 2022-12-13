@@ -1,0 +1,16 @@
+.stars-container {
+    margin-top: 20px;
+    &__star {
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .stars-container {
+        margin: 0;
+        &__star {
+            margin: 0;
+            width: 15px;
+        }
+    }
+}
