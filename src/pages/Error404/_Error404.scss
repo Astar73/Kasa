@@ -13,8 +13,25 @@
     &__text-link {
         font-weight: 500;
         font-size: 18px;
-        text-decoration: none;
+        text-decoration: underline;
         color: $color-primary;
         margin-bottom: 7em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .error {
+        &__title {
+            font-size: 96px;
+            margin-top: 1.6em;
+        }
+        &__text {
+            font-size: 18px;
+            width: 260px;
+            margin: auto auto 7em;
+        }
+        &__text-link {
+            margin-bottom: 20em;
+        }
     }
 }
