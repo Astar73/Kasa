@@ -10,6 +10,7 @@ export default function Card() {
                     <article className="card" key={product.id}>
                         <Link to={`/products/${product.id}`}>
                             <img src={product.cover} alt="Logement" className="card__img" />
+                            <div className="card__overlay"></div>
                             <p className="card__title">{product.title}</p>
                         </Link>
                     </article>
