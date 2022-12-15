@@ -8,8 +8,8 @@ export default function About() {
     return (
         <main className="about">
             <Banner image={BannerImg} title="" />
-            {aboutDropdown.map((text) => {
-                return <Dropdown title={text.title} content={text.content} />
+            {aboutDropdown.map((text, id) => {
+                return <Dropdown key={id} title={text.title} content={text.content} />
             })}
         </main>
     )

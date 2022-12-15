@@ -8,9 +8,9 @@ export default function Rating({ stars }) {
         <div className="stars-container">
             {rate.map((number) =>
                 number <= stars ? (
-                    <img src={star} alt={stars} className="stars-container__star" />
+                    <img key={number.toString()} src={star} alt={stars} className="stars-container__star" />
                 ) : (
-                    <img src={emptyStar} alt={stars} className="stars-container__star" />
+                    <img key={number.toString()} src={emptyStar} alt={stars} className="stars-container__star" />
                 )
             )}
         </div>
