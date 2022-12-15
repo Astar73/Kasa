@@ -21,7 +21,7 @@ export default function Dropdown({ title, content, isList }) {
                 {isList ? (
                     <ul>
                         {content.map((value) => (
-                            <li>{value}</li>
+                            <li key={value}>{value}</li>
                         ))}
                     </ul>
                 ) : (
