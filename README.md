@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-Projet P7 du parcours développeur web d'OpenClassroom
+# Projet P7 du parcours développeur web d'OpenClassroom
 
 ## Kasa
 
